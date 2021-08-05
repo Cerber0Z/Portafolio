@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+header {
+    background: rgb(255 255 255 / 95%);
+    width: 100%;
+    position: fixed;
+    z-index: 81;
+    margin-top: -5%;
+}
+
+#logo {
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-menu {
+    display: flex;
+    position: absolute;
+    margin-left: 42%;
+    margin-top: -50px;
+}
+
+.li-sections {
+    padding-right: 2.5em;
+    list-style: none;
+}
+
+.nav .icons {
+    padding-right: 1.5em;
+}
+
+.nav-icons {
+    display: flex;
+    margin-left: 155%;
+    margin-top: -5px;
+}
+
+.foto {
+    height: 855px;
+    background-size: 40% 100%;
+    background-image: url(../img/foto.png);
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    margin-left: -2px;
+}
+
+.skills {
+    margin-top: 30px;
+}
+
+.tag-name {
+    position: absolute;
+    width: 920px;
+    height: 210px;
+    left: 485px;
+    top: 281px;
+    background: rgba(247, 247, 247, 0.45);
+    border: 5.8px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(15px);
+    border-radius: 30px;
+    padding: 2%;
+}
+
+#hello {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #575757;
+}
+
+#name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 66px;
+    line-height: 82px;
+    color: #FF9900;
+}
+
+#description {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 5px;
+    letter-spacing: 0.05em;
+    color: #575757;
+}
+
+.tag-skills {
+    margin-top: -22%;
+    margin-left: 41%;
+}
+
+.skills-ul-first {
+    display: flex;
+    list-style: none;
+    margin-top: 40px;
+    margin-left: -30px;
+}
+
+.icons-skills {
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.skills-div {
+    border: 0.5px solid #CBCBCB;
+    padding: 2%;
+    width: 11.5%;
+    height: 130px;
+    margin-left: 30px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.skills-ul-second {
+    display: flex;
+    list-style: none;
+    margin-top: 33px;
+    margin-left: -30px;
+}
+
+.hr-skills {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+
+/*---------Servicios------------*/
+
+.sub-title {
+    text-align: center;
+    font-size: xx-large;
+    color: #575757;
+    letter-spacing: 0.05em;
+}
+
+.container-services {
+    text-align: center;
+    margin-top: 66px;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 34px;
+    grid-template-areas: initial;
+}
+
+.container-services-section {
+    border: 0.5px solid #CBCBCB;
+    background-color: #F8F8F8;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding: 35px;
+}
+
+.text-container-section {
+    font-size: large;
+    margin-top: 15px;
+    text-align: initial;
+}
