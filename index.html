@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles/index.css">
+
     <title>Sergio Vera</title>
 </head>
 
@@ -31,7 +32,13 @@
                                 <p class="text-menu">Proyectos</p>
                             </a>
                         </li>
+                        <a href="assets/pdf/CV-Sergio-Vera.pdf" target="_blank" download="CV-Sergio-Vera">
+                            <div class="nav-cv" title="CV Sergio Vera">
+                                <p class="text-menu-cv">Descargar CV</p>
+                            </div>
+                        </a>
                         <div class="nav-icons">
+
                             <li class="li-sections icons">
                                 <a href="https://www.linkedin.com/in/sergio-vera-b58b69186/" target="_blank"><img src="assets/img/linkedi.png"></a>
                             </li>
@@ -57,44 +64,44 @@
                 <ul class="skills-ul-first">
                     <div class="skills-div">
                         <li class="icons-skills">
-                            <a href="https://www.figma.com/"><img class="icon-skill" src="assets/img/logos_figma.png" title="figma" alt="figma"></a>
+                            <a href="https://www.figma.com/" target="_blank"><img class="icon-skill" src="assets/img/logos_figma.png" title="figma" alt="figma"></a>
                         </li>
                     </div>
                     <div class="skills-div">
                         <li class="icons-skills">
-                            <a href="https://es.wikipedia.org/wiki/HTML5"><img class="icon-skill" src="assets/img/vscode-icons_file-type-html.png" title="HTML5" alt="html5"></a>
+                            <a href="https://es.wikipedia.org/wiki/HTML5" target="_blank"><img class="icon-skill" src="assets/img/vscode-icons_file-type-html.png" title="HTML5" alt="html5"></a>
                         </li>
                     </div>
                     <div class="skills-div">
                         <li class="icons-skills">
-                            <a href="https://developer.mozilla.org/es/docs/Web/CSS"><img class="icon-skill" src="assets/img/vscode-icons_file-type-css.png" title="CSS3" alt="css"></a>
+                            <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank"><img class="icon-skill" src="assets/img/vscode-icons_file-type-css.png" title="CSS3" alt="css"></a>
                         </li>
                     </div>
                     <div class="skills-div">
                         <li class="icons-skills">
-                            <a href="https://developer.mozilla.org/es/docs/Web/JavaScript"><img class="icon-skill" src="assets/img/vscode-icons_file-type-js-official.png" title="JavaScript" alt="js"></a>
+                            <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank"><img class="icon-skill" src="assets/img/vscode-icons_file-type-js-official.png" title="JavaScript" alt="js"></a>
                         </li>
                     </div>
                 </ul>
                 <ul class="skills-ul-second">
                     <div class="skills-div">
                         <li class="icons-skills">
-                            <a href="https://getbootstrap.com/"><img class="icon-skill" src="assets/img/logos_bootstrap.png" title="bootstrap" alt="bootstrap"></a>
+                            <a href="https://getbootstrap.com/" target="_blank"><img class="icon-skill" src="assets/img/logos_bootstrap.png" title="bootstrap" alt="bootstrap"></a>
                         </li>
                     </div>
                     <div class="skills-div">
                         <li class="icons-skills">
-                            <a href="https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)"><img class="icon-skill" src="assets/img/logos_java.png" title="Java" alt="Java"></a>
+                            <a href="https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)" target="_blank"><img class="icon-skill" src="assets/img/logos_java.png" title="Java" alt="Java"></a>
                         </li>
                     </div>
                     <div class="skills-div">
                         <li class="icons-skills">
-                            <a href="https://www.php.net/manual/es/intro-whatis.php"><img class="icon-skill" src="assets/img/vscode-icons_file-type-php.png" title="PHP" alt="PHP"></a>
+                            <a href="https://www.php.net/manual/es/intro-whatis.php" target="_blank"><img class="icon-skill" src="assets/img/vscode-icons_file-type-php.png" title="PHP" alt="PHP"></a>
                         </li>
                     </div>
                     <div class="skills-div">
                         <li class="icons-skills">
-                            <a href="https://www.mysql.com/"><img class="icon-skill" src="assets/img/cib_mysql.png" title="Mysql" alt="Mysql"></a>
+                            <a href="https://www.mysql.com/" target="_blank"><img class="icon-skill" src="assets/img/cib_mysql.png" title="Mysql" alt="Mysql"></a>
                         </li>
                     </div>
                 </ul>
@@ -156,13 +163,34 @@
                 </div>
             </div>
         </section>
-
+        <div class="container-boton-email">
+            <div class="email">
+                <button type="button" class="open-modal" data-open="modal2"> <img src="assets/img/email.png" title="Contáctame"></button>
+            </div>
+        </div>
     </div>
+
     <footer class="footer">
         <div class="container-footer">
             <p>todos los drechos reservados</p>
         </div>
     </footer>
+
+    <!--Modal-->
+    <div class="modal" id="modal2">
+        <div class="modal-dialog">
+
+            <section class="modal-content">
+                <input name="email" type="email" placeholder="ejemplo@gmail.com">
+            </section>
+            <footer class="modal-footer">
+                The footer of the second modal
+            </footer>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="assets/js/index.js"></script>
 </body>
+
 
 </html>
