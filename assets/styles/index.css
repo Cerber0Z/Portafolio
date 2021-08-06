@@ -7,11 +7,20 @@
 }
 
 header {
-    background: rgb(255 255 255 / 95%);
+    background: rgb(255 255 255 / 100%);
     width: 100%;
     position: fixed;
     z-index: 81;
     margin-top: -5%;
+}
+
+.text-menu {
+    font-size: large;
+    text-align: initial;
+    text-decoration: none;
+    color: #3e3e3e;
+    padding: 10px;
+    margin-top: -12px;
 }
 
 #logo {
@@ -23,7 +32,7 @@ header {
 .nav-menu {
     display: flex;
     position: absolute;
-    margin-left: 42%;
+    margin-left: 42.4%;
     margin-top: -50px;
 }
 
@@ -38,8 +47,9 @@ header {
 
 .nav-icons {
     display: flex;
-    margin-left: 155%;
+    margin-left: 48%;
     margin-top: -5px;
+    position: fixed;
 }
 
 .foto {
@@ -133,6 +143,10 @@ header {
 .hr-skills {
     margin-top: 80px;
     margin-bottom: 60px;
+    width: 100%;
+    height: 3px;
+    border: 0px;
+    background-color: #e0e0e0;
 }
 
 
@@ -143,6 +157,30 @@ header {
     font-size: xx-large;
     color: #575757;
     letter-spacing: 0.05em;
+}
+
+.img-responsive {
+    background-image: url(../img/codicon_terminal-tmux.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 58%;
+    margin-left: 50px;
+}
+
+.img-east {
+    background-image: url(../img/geo_ui-earth-east.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 58%;
+    margin-left: 50px;
+}
+
+.img-tools {
+    background-image: url(../img/carbon_tools.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 58%;
+    margin-left: 50px;
 }
 
 .container-services {
@@ -158,15 +196,113 @@ header {
 }
 
 .container-services-section {
-    border: 0.5px solid #CBCBCB;
+    border: 3.5px solid #CBCBCB;
     background-color: #F8F8F8;
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
     padding: 35px;
+    margin-top: 10%;
+    margin-bottom: 110px;
+    height: 88%;
 }
 
 .text-container-section {
     font-size: large;
     margin-top: 15px;
     text-align: initial;
+}
+
+
+/*----------Proyectos------------*/
+
+.proyect-section {
+    height: 100%;
+}
+
+.container-proyect {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 65px;
+    max-width: 1450px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-template-areas: initial;
+}
+
+.img-proyect {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.container-proyect-section {
+    border: 0.5px solid #CBCBCB;
+    background-color: #F8F8F8;
+    box-shadow: 0px 6px 15px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    padding: 12px;
+    height: 97%;
+    width: 102%;
+}
+
+.footer {
+    background-color: #F5F5F7;
+    width: 100%;
+    height: 60px;
+}
+
+
+/*-------hovers-------*/
+
+.text-menu:hover {
+    transition-duration: 500ms;
+    color: #fff;
+    background: #F39302;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.resposive:hover {
+    transition-duration: 800ms;
+    border: 3.5px solid #F39302;
+    background-repeat: no-repeat;
+}
+
+.img-responsive:hover {
+    transition-duration: 800ms;
+    position: relative;
+    background-image: url(../img/codicon_terminal-tmuxorage.png);
+}
+
+.eart:hover {
+    transition-duration: 800ms;
+    border: 3.5px solid #F39302;
+    background-repeat: no-repeat;
+}
+
+.img-east:hover {
+    transition-duration: 800ms;
+    position: relative;
+    background-image: url(../img/geo_ui-earth-eastorange.png);
+}
+
+.tools:hover {
+    transition-duration: 800ms;
+    border: 3.5px solid #F39302;
+    background-repeat: no-repeat;
+}
+
+.img-tools:hover {
+    transition-duration: 800ms;
+    position: relative;
+    background-image: url(../img/carbon_toolsorgane.png);
+}
+
+.icons-skills:hover {
+    transition-duration: 500ms;
+    margin-top: 10px;
 }
